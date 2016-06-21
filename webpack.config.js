@@ -14,6 +14,10 @@ module.exports = {
       query: {
         presets: ['react', 'es2015']
       }
+    }, {
+      test: /\.pug$/,
+      include: '../src/_pugfiles/',
+      loader: 'pug-static-loader'
     }]
   }
 };
