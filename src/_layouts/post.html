@@ -1,15 +1,70 @@
 ---
-layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<head>
+  <link rel="stylesheet" href="https://npmcdn.com/tachyons@4.0.0-beta.31/css/tachyons.min.css">
+  <link rel="stylesheet" href="../../../assets/css/main.css">
+</head>
+<body>
+    <div class="home-container">
+        <div class="mobile-nav">
+            <ul>
+                <li>
+                    <a class="f3 link" href="https://corderophilosophy.com/about">About</a>
+                </li>
+                <li>
+                    <a class="f3 link" href="https://corderophilosophy.com/blog">Blog</a>
+                </li>
+                <li>
+                    <a class="f3 link" href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a class="f3 link" href="#footer">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <header>
+            <div class="header-position">
+                <h1 class="logo">Rich Cordero</h1>
+                <nav class="site-nav">
+                    <ul>
+                        <li>
+                            <a class="f3 link" href="https://corderophilosophy.com/about">About</a>
+                        </li>
+                        <li>
+                            <a class="f3 link" href="https://corderophilosophy.com/blog">Blog</a>
+                        </li>
+                        <li>
+                            <a class="f3 link" href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a class="f3 link" href="#footer">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="email-link f3 link" href="mailto:rich@corderophilosophy.com">+email me</a>
+                <div class="mobile-nav-toggle">
+                    <span></span>
+                </div>
+            </div>
+        </header>
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+        <div class="home-sections bloglayout">
+          <div class="post-content">
+            <h1 class="banner">corderophilosophy.com | Blog</h1>
+            <h2>{{ page.title }}</h2>
+            <p class="meta">{{ page.date | date_to_string }}</p>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+            {{ content }}
 
-</article>
+        </div>
+      </div>
+    </div>
+
+        <div class="sidebar">
+            <h1 class="blog-title">Recent Posts</h1>
+            <ul class="postlist">
+                {% for post in site.posts limit: 10 %}
+                <li> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>

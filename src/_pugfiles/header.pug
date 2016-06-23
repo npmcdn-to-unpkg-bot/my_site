@@ -1,0 +1,20 @@
+mixin nav-content()
+  ul
+    li: a(href="{{site.url}}/about").f3.link About
+    li: a(href="{{site.url}}/blog").f3.link Blog
+    li: a(href="{{site.url}}/#projects").f3.link Projects
+    li: a(href="{{site.url}}/#footer").f3.link Contact
+
+.mobile-nav
+  +nav-content()
+
+header
+  .header-position
+    h1.logo Rich Cordero
+
+    nav.site-nav
+      +nav-content()
+
+    a(href="mailto:rich@corderophilosophy.com").email-link.f3.link +email me
+
+    .mobile-nav-toggle: span
