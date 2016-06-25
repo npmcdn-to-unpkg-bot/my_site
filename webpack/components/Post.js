@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // const blog = require('../../src/_pugfiles/blog.pug');
 
+
 class Post extends Component {
   render() {
     return (

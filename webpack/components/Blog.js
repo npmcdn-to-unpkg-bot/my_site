@@ -11,9 +11,9 @@ class Blog extends Component {
         </div>
         <div className="fl w-100 w-75-ns tc pa3 pb4 right-col pl5">
 
-          <Post title="My first Post" posted="05/07/16" url="" />
-          <Post title="So what's the Plan?" posted="05/07/16" url="" />
-          <Post title="JS - Getting Started" posted="05/21/16" url="" />
+          <Post title="My first Post" posted="05/07/16" url="http://corderophilosophy.com/2016/05/07/my-first-post.html" />
+          <Post title="So what's the Plan?" posted="05/07/16" url="http://corderophilosophy.com/2016/05/07/so-whats-the-plan.html" />
+          <Post title="JS - Getting Started" posted="05/21/16" url="http://corderophilosophy.com/2016/05/21/js-getting-started.html" />
         </div>
       </div>
     )

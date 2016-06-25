@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My first post"
-thumbnail: post-1.jpg
+date: 2016-05-07
 ---
 
 Hello World!

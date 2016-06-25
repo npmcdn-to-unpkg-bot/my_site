@@ -1,7 +1,7 @@
 ---
 layout: post
 title: So what's the plan?
-thumbnail: post-1.jpg
+date: 2016-05-07
 ---
 Hello again, World!
 

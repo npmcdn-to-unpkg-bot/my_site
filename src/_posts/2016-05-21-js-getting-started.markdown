@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JS - Getting Started
-thumbnail: post-1.jpg
+date: 2016-05-21
 ---
 
 ### JS: Getting Started
