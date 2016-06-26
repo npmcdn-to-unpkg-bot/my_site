@@ -16,7 +16,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://corderophilosophy.com" # the base hostname & protocol for your site
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 destination: public
 source: src
 exclude: ['node_modules']

@@ -4,8 +4,8 @@ title: Transformative Experiences
 date: 2016-06-24
 ---
 
-## _“Transformative Experiences: Opting for Rationality or Authenticity”_
-_(Originally appeared in Issue 71 of The Philosopher’s Magazine)_
+## _Transformative Experiences: Opting for Rationality or Authenticity_
+_Originally appeared in Issue 71 of The Philosopher’s Magazine_
 
 Because I have a deformity of the spine, just before I turned 15, my parents took me to an orthopedic doctor for what was supposed to be a routine visit. After reviewing several X-Rays, my doctor had bad news. The curvature of my spine had progressed dramatically since last I had been X-Rayed. He recommended yet another spinal surgery to stop it from getting worse. We were faced with a decision -- we could operate, during one of the most difficult and formative years of my life, or delay and risk my spine curving into my lungs, causing further disability, pain, and, likely, death. How could we make this decision, neither of whose options were, at the time, quite imaginable to us?
 
