@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 // const header = require('../../src/_pugfiles/header.pug');
 
 class Header extends Component {
-  handler: function(evt) {
+  handler(evt) {
     evt.preventDefault();
     console.log(this.state.className);
 
 
-  },
+  }
   render () {
     return (
       <section className="headr">

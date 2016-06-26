@@ -11,7 +11,7 @@ class Post extends Component {
             <div className="tc post-meta">
               <h1 className="f4 post-meta-title black">{this.props.title}</h1>
               <hr className="bb bw1 b--black-10 mb1"/>
-              <p className="lh-solid measure center f6 black-70 mb2 post-meta-excerpt">{this.props.posted}</p>
+              <p className="lh-solid measure center f6 black-70 mb2 post-meta-excerpt">{this.props.date}</p>
             </div>
           </div>
         </div>

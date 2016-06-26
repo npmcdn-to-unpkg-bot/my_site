@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
 import Post from './Post';
 // const blog = require('../../src/_pugfiles/blog.pug');
+import Blogposts from '../../src/blog/posts';
 
 class Blog extends Component {
+  displayPosts() {
+    Blogposts.posts.map((el) => {
+      return (
+        <Post title="My first Post" posted="05/07/16" url="http://corderophilosophy.com/2016/05/07/my-first-post.html" />
+
+    )});
+  }
   render() {
     return (
       <div className="section-blog cf">

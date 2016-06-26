@@ -24,7 +24,7 @@ exports.devServer = function(options) {
       // customization.
       host: options.host, // Defaults to 'localhost'
       port: options.port,
-      contentBase: './src' // Defaults to 8080
+      contentBase: './public' // Defaults to 8080
     },
     plugins: [
       // Enable multi-pass compilation for enhanced
